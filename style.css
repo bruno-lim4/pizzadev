@@ -143,7 +143,7 @@ section {
     gap: 2rem;
 }
 
-#home .texto {
+#home .texto { 
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     text-align: center;
@@ -161,6 +161,7 @@ section {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
+
 
 .button {
     background-color: var(--base-color);
