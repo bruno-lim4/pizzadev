@@ -142,26 +142,41 @@ section {
     display: grid;
     gap: 2rem;
 }
-
-#home .texto { 
+#home .text { 
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     text-align: center;
 }
-
-#home .texto h1 {
+#home .text h1 {
     margin-bottom: 1rem;
 }
 
-#home .texto p {
+#home .text p {
     margin-bottom: 1.5rem;
 }
-
-#home .imagem {
+#home .image {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
 
+.justify-text {
+    text-align: justify;
+}
+
+.card {
+    padding: 3.625rem 2rem;
+    box-shadow: var(--base-color);
+    border-bottom: .25rem solid var(--base-color);
+    border-radius: .25rem .25rem 0 0;
+    text-align: center;
+}
+
+.card i {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-size: 5rem;
+    color: var(--base-color);
+}
 
 .button {
     background-color: var(--base-color);
