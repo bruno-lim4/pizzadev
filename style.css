@@ -202,6 +202,102 @@ section {
     );
  }
 
+.section .title {
+    margin-bottom: 1rem;
+}
+
+.section .subtitle {
+    font-size: var(--subtitle-font-size);
+}
+
+#contact .grid {
+    gap: 4rem;
+}
+
+#contact .text p {
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+#contact .button {
+    margin-top: 1.5rem;
+}
+
+#contact .button i {
+    font-size: 1.5rem;
+    margin-right: 0.675rem;
+}
+
+#contact ul.grid {
+    gap: 1.5rem;
+}
+
+#contact ul li i {
+    color: var(--base-color);
+    font-size: 1.5rem;
+    margin-right: 0.625rem;
+}
+
+#contact .align_button {
+    text-align: center;
+}
+
+#contact .container {
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact .text {
+    max-width: 25rem;
+}
+
+#contact .align_button {
+    text-align: left;
+}
+
+footer {
+    background: var(--base-color);
+}
+
+footer .logo {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+footer .brand p {
+    color: var(--text-color-light);
+    margin-bottom: 0.75rem;
+}
+
+footer i {
+    font-size: 1.5rem;
+    color: var(--text-color-light);
+}
+
+footer .social a {
+    margin-right: 2rem;
+}
+
+footer .container {
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer.section {
+    padding: 3.75rem 0;
+}
+
+footer .logo {
+    color: var(--title-color);
+    font: 700 2.5rem 'Poppins', 'sans-serif';
+}
+
+footer .logo span {
+    color: var(--body-color);
+}
+
 :root {
     /* colors */
     --hue: 159;
@@ -213,4 +309,6 @@ section {
     --text-color: hsl(0 0% 46%);
     --text-color-light: hsl(0 0% 98%);
     --body-color: hsl(0 0% 98%);
+    --title-font-size: 2.25rem;
+    --subtitle-font-size: 1.125rem;
 }
